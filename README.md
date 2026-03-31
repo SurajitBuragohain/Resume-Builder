@@ -9,7 +9,7 @@ This Python project is a command-line interface (CLI) tool for building professi
 - Automatically generates a well-formatted PDF resume.
 - Includes functionality to add detailed descriptions for work experience and projects.
 - Supports multiple certifications and achievements.
-- Simple and intuitive navigation using `prompt_toolkit` for menu interactions.
+
 
 ## Prerequisites
 
@@ -17,13 +17,9 @@ This Python project is a command-line interface (CLI) tool for building professi
 
 ## Setup Instructions
 
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/username/your-repo.git
-    cd your-repo
-    ```
 
-2. **Create and activate a virtual environment**:
+
+1. **Create and activate a virtual environment**:
 
     For macOS/Linux:
     ```bash
@@ -37,30 +33,14 @@ This Python project is a command-line interface (CLI) tool for building professi
     venv\Scripts\activate
     ```
 
-3. **Install the necessary dependencies**:
+2. **Install the necessary dependencies**:
     ```bash
     pip install -r requirements.txt
     ```
 
-4. **Run the application**:
+3. **Run the application**:
     ```bash
     python resume_builder.py
     ```
 
-## Usage
 
-- **Interactive Menu**: The program presents a menu to select which section of the resume you want to edit or add.
-- **PDF Generation**: Once all sections are filled, you can generate a PDF with all the input data.
-- **Options**:
-    - Add or edit Contact Information, Work Experience, Education, Skills, Projects, Certifications, and Achievements.
-    - Generate the PDF after completing the resume input.
-
-## Dependencies
-
-- `geopy`: For any geographic distance calculation (if needed for future features).
-- `prompt_toolkit`: A library for building beautiful command-line applications.
-- `fpdf`: A library for generating PDF documents from the entered resume data.
-
-## License
-
-This project is licensed under the MIT License.
